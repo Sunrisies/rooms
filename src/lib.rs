@@ -1,3 +1,4 @@
-mod entities;
+pub mod entities;
+pub use entities::*;
 mod handlers;
-mod websocket;
+pub mod websocket;

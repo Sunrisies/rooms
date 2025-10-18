@@ -19,3 +19,6 @@ chrono = { version = "0.4", features = ["serde"] }
 uuid = { version = "1.0", features = ["v4"] }
 bcrypt = "0.15"
 dotenvy = "0.15"
+actix-ws = "0.3.0"
+futures-util = "0.3.31"
+actix-rt = "2.11.0"
